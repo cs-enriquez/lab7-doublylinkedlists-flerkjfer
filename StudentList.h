@@ -20,7 +20,7 @@ class Student {
 class Node {
 	public:
 		Student data;
-		Node *next;
+		Node *next; //pointer type Node to store data and prev and next
 		Node *prev;
 
 		Node(Student x, Node *nextPtr = nullptr, Node *prevPtr = nullptr)
